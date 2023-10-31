@@ -12,8 +12,20 @@
 </head>
 
 <body>
-    <h1>Preentrega 1 </h1>
-    <p></p>
+
+    <h1>Calculadora de Notas Finales</h1>
+    <p>Ingresa las notas de los alumnos:</p>
+
+    <div id="alumnos">
+        <div class="alumno">
+            <label for="nota1">Nota 1: </label>
+            <input type="number" id="nota1" class="nota" placeholder="Nota 1">
+            <label for="nota2">Nota 2: </label>
+            <input type="number" id="nota2" class="nota" placeholder="Nota 2">
+            <button onclick="calcularNotaFinal(this)">Calcular Nota Final</button>
+            <p class="resultado"></p>
+        </div>
+    </div>
 </body>
 
 </html>
